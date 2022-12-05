@@ -32,7 +32,7 @@ namespace InteractiveFiction
             {
                 Console.Clear();
                 Console.SetCursorPosition(0, 0);
-                Console.WriteLine("Something went wrong");
+                Console.WriteLine(" Something went wrong");
                 Console.ReadKey(true);
                 throw new Exception();
             }
@@ -66,7 +66,6 @@ namespace InteractiveFiction
             WriteTitle();
 
             Console.WriteLine();     
-            Console.WriteLine();
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Page " + pageNum); 
@@ -117,7 +116,7 @@ namespace InteractiveFiction
                 }
                 Console.Clear(); 
                 Console.SetCursorPosition(0, 0);
-                Console.WriteLine("Not an option");
+                Console.WriteLine(" Not an option");
                 Console.ReadKey(true);
                 WritePage(pageNum);
             }
@@ -135,23 +134,28 @@ namespace InteractiveFiction
             }
 
             Console.WriteLine();
+            Console.WriteLine("-------------");
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.Write("\"s\"");
+            Console.Write(" \"s\"");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write(" to Save ");
             Console.WriteLine();
+            Console.WriteLine("-------------");
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.Write("\"l\"");
+            Console.Write(" \"l\"");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write(" to Load");
             Console.WriteLine();
+            Console.WriteLine("-------------");
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.Write("\"q\"");
+            Console.Write(" \"q\"");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write(" to Quit");
             Console.WriteLine();
+            Console.WriteLine("-------------");
             Console.WriteLine();
-            Console.Write("Input Page Number and press Enter");
+            Console.WriteLine();
+            Console.Write(" Input Page Number and press Enter: ");
         }
 
 
