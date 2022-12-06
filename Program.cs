@@ -24,6 +24,7 @@ namespace InteractiveFiction
             WritePage(1);
             Console.ReadKey(true);
 
+            string[] lines = System.IO.File.ReadAllLines(@"story.txt");
         }
 
 
@@ -67,7 +68,6 @@ namespace InteractiveFiction
             WriteTitle();
 
             Console.WriteLine();     
-            Console.WriteLine();
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Page " + pageNum); 
