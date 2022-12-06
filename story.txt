@@ -1,0 +1,59 @@
+An Adventure%
+
+You wake up, its time to get up.
+$Get up and get ready.&Go back to sleep.
+$2&1%
+
+you get up and do your morning routine. you finish and decide what to do
+$Go for a walk to the river &Go into town
+$3&8%
+
+On the way to the river you see a bear. What do you do?
+$Keep going and avoid bear &Fight Bear
+$4&5%
+
+You avoid the Bear and Get to the river
+$Go for a swim &Walk along the riverbed
+$6&7%
+
+The bear wins the fight and you die
+$!Game Over%
+
+you jump and the river and swim around a bit.  After a while you see the bear approching
+$Keep Swimming &Get out and run
+$14&8%
+
+you walk down the river bed. After a while you see the bear again
+$Do Nothing &Run
+$15&9%
+
+You get to town and get run over by a car and die
+$!Game Over%
+
+The bear is gaining
+$Cross the River &Climb a Tree
+$10&11%
+
+you lose your footing and get swept down the river
+$attempt to escape &Ride it out
+$12&13%
+
+You climb a tree, But its a blackbear, and it follows you up and you die
+$!Game Over%
+
+you get to the edge, now tired, but the bear is waiting
+$!Game Over%
+
+You ride it out and Succesfully escape safely
+$!Game Over%
+
+The bear is actually pretty chill and you swim with him
+$!Game Over%
+
+The bear catches you, you die
+$!Game Over%
+
+
+
+
+
